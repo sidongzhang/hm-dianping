@@ -9,7 +9,7 @@ import javax.annotation.Resource;
 
 /**
  * <p>
- *  前端控制器
+ * 前端控制器
  * </p>
  *
  * @author 虎哥
@@ -35,7 +35,7 @@ public class FollowController {
     }
 
     @GetMapping("/common/{id}")
-    public Result followCommons(@PathVariable("id") Long id){
-        return followService.followCommons(id) ;
+    public Result followCommons(@PathVariable("id") Long id) {
+        return followService.followCommons(id);
     }
 }
